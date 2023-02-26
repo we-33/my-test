@@ -1,0 +1,39 @@
+.textBox .text {
+    color: #44cb4d;
+    clip-path: circle(80%);
+}
+
+.textBox {
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: colorChange 3s infinite steps(6);
+}
+
+.textBox .text::first-letter{
+    font-size: 300%;
+    vertical-align: middle;
+}
+
+.textBox .test-path{
+    clip-path: inset(0 10px 30px 10px round 30px);
+}
+
+.textBox .test-clip {
+    position: absolute;
+    clip: rect(10px,50px,50px,0px);
+}
+
+@keyframes colorChange {
+    from {
+        color: #44cb4d;
+        font-size: 50%;
+    }
+    to {
+        color: rgb(238, 19, 19);
+        font-size: 300%;
+    }
+}

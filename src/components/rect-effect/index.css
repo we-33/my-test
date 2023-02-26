@@ -1,0 +1,11 @@
+.Red {
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    margin:0 10px;
+}
+
+.toolBtns {
+    display: flex;
+    
+}

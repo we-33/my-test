@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.demo{
+    background-color: rgb(255, 255, 255);
+}
+
+.demo.--left{
+    box-shadow: inset 7px 0 30px -7px rgba(0,0,0,0.4);
+}
+
+.demo.--right{
+    box-shadow: inset 7px 0 30px -7px rgba(0,0,0,0.4);
+}
