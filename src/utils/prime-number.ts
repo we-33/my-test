@@ -1,0 +1,5 @@
+class Prime{
+    private isPrime(){
+
+    }
+}
